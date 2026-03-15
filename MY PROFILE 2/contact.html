@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact - Higher Global Educational Consult</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#002b5c;
+padding:15px;
+}
+
+.logo{
+color:white;
+font-weight:bold;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+.container{
+padding:50px;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+button{
+background:#ff6600;
+color:white;
+padding:12px;
+border:none;
+font-size:16px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Higher Global</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<div class="container">
+
+<h1>Contact Us</h1>
+
+<form action="mailto:info@higherglobalconsult.com" method="post" enctype="text/plain">
+
+<label>Name</label>
+<input type="text" name="name" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Phone Number</label>
+<input type="tel" name="phone" required>
+
+<label>Message</label>
+<textarea name="message" rows="5" required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
